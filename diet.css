@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  margin-top: 5px
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+  margin-left: 7.5%;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #0d0d0d;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.25s ease-in-out;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+
+.bannerPara {
+  font-size: 20px;
+}
+
+.banner {
+  background-color: #dc3545;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerImg {
+  margin-left: 6.5%;
+}
+
+.bannerTagline {
+  text-align: center;
+  float: right;
+  margin-top: -21.5%;
+  margin-right: 5%;
+  font-size: 21px;
+}
+
+#bannerLine1 {
+  color: #ffbf1e;
+}
+
+#bannerLine2 {
+  color: white;
+}
+
+.bannerButton {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #dc3545;
+  background-color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bannerButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  width: 93%;
+  height: 10%;
+  grid-gap: 7rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 0.3fr));
+  margin-left: 100px;
+}
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+  width: 50px;
+  height: 20px;
+  
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: O#0d0d0d;
+  margin-bottom: 1. 5rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.2rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+@media only screen and (max-width: 60em) {
+  body {
+  padding: 3rem;
+  }
+  .grid{
+    grid-gap: 3rem;
+  }
+}
+.bannerPara {
+  background-color: white;
+  padding: 10px;
+}
+
+#recBlink
+{
+animation-duration : 500ms;
+animation-name : blink;
+animation-iteration-count : infinite;
+animation-direction : alternate;
+}
+
+@keyframes blink
+{
+from
+{
+opacity : 2;
+color : yellow;
+}
+to
+{
+opacity : 2;
+color : rgb(0, 64, 255);
+}
+}

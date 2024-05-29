@@ -1,0 +1,603 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./food.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Healthify Me - Food Nutrients</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <a href="./index.html"> <img src="./images/logo1.png" class="logo" alt="" width="230" height="75"></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./food.html">FOOD</a></li>
+                <li><a href="./diet.html">DIET</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <h2>Food Nutrients</h2><br>
+    <p class="info"><b>Nutrients are essential substances that are required by our bodies to function properly. 
+      They provide the energy we need to carry out daily activities, help to maintain and repair our tissues, and 
+      support the growth and development of our bodies. Nutrients are found in a wide range of foods,
+      and it is important to eat a balanced diet that contains all of the necessary nutrients.
+      <br>
+      <b>Note: 1 Ounce(oz) = 28.35 grams</b><br>
+      There are six main types of nutrients: carbohydrates, proteins, fats, vitamins and minerals::</b></p>
+    <br>
+    
+    <div class="tab">
+      <button class="tablinks" onclick="openNutrients(event, 'Protein')" id="defaultOpen">Protein</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Carbohydrates')">Carbohydrates</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Fats')">Fats</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Vitamins')">Vitamins</button>
+      <button class="tablinks" onclick="openNutrients(event, 'Minerals')">Minerals</button>
+    </div>
+    
+    <div id="Protein" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <br>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p1_egg.avif" alt="egg-pic" width="300px" height="250px">
+            <h3>Eggs</h3>
+            <br>
+            <p>One large egg (50 grams) provides <b>6.3</b> grams of protein.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p2_almonds.avif" alt="almonds-pic" width="300px" height="250px">
+            <h3>Almonds</h3>
+            <br>
+            <p>One ounce (28.35 grams) of almonds provides <b>5</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p3_chicken.jpg" alt="chicken-pic" width="300px" height="250px">
+            <h3>Chicken breast</h3>
+            <br>
+            <p>One half of a chicken breast (86 grams) provides <b>26.7</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p9_cheese.jpg" alt="cheese-pic" width="300px" height="250px">
+            <h3>Cottage cheese</h3>
+            <br>
+            <p>One cup (226 grams) of cottage cheese provides <b>28</b> grams of protein.</p> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p4_milk.avif" alt="milk-pic" width="300px" height="250px">
+            <h3>Milk</h3>
+            <br>
+            <p>One cup (246 mL) of dairy milk provides <b>8.32</b> grams of protein.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p5_fish.avif" alt="fish-pic" width="300px" height="250px">
+            <h3>Fish</h3>
+            <br>
+            <p>Half a salmon fillet (100 grams) provides <b>22</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p6_powder.jpg" alt="powder-pic" width="300px" height="250px">
+            <h3>Protein powders</h3>
+            <br>
+            <p><b>16.6</b> grams of protein per scoop (28.6 grams).</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p7_bread.avif" alt="Bread-pic" width="300px" height="250px">
+            <h3>Ezekiel bread</h3>
+            <br>
+            <p>One slice (60 grams) of Ezekiel bread provides <b>6</b> grams of protein.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p8_seeds.avif" alt="seeds-pic" width="300px" height="250px">
+            <h3>Pumpkin seeds</h3>
+            <br>
+            <p>A 1/4 cup (29.5 grams) of pumpkin seeds provides <b>8.8</b> grams of protein.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p10_peanuts.avif" alt="peanuts-pic" width="300px" height="250px">
+            <h3>Peanuts</h3>
+            <br>
+            <p>A 1-ounce (28.35-gram) of peanuts provides <b>7.31</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p12_peanut-butter.avif" alt="peanut-butter-pic" width="300px" height="250px">
+            <h3>Peanut butter</h3>
+            <br>
+            <p>A 2-tablespoon (32-gram) of peanut butter provides <b>7.2</b> grams of protein.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/p11_soybeans.avif" alt="soybeans-pic" width="300px" height="250px">
+            <h3>Soybeans</h3>
+            <br>
+            <p>A cup (186 g) serving of Soybeans provides <b>68</b> grams of proteins.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+    
+    <div id="Carbohydrates" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c1_sweetPotato.jpg" alt="Sweet Potatoes-pic" width="300px" height="250px">
+            <h3>Sweet Potatoes</h3>
+            <br>
+            <p>One large 180 grams (g) baked sweet potato has <b>37.3</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c2_beetroot.jpg" alt="Beetroot-pic" width="300px" height="250px">
+            <h3>Beetroot</h3>
+            <br>
+            <p>One cup of raw beets has <b>13</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c3_corn.avif" alt="Corn-pic" width="300px" height="250px">
+            <h3>Corn</h3>
+            <br>
+            <p>A measure of 100 grams of corn contains <b>18.7</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c4_quinoa.jpg" alt="Quinoa-pic" width="300px" height="250px">
+            <h3>Quinoa</h3>
+            <br>
+            <p>One cup of cooked quinoa contains <b>39.4</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c5_brownrice.jpg" alt="Brown rice-pic" width="300px" height="250px">
+            <h3>Brown rice</h3>
+            <br>
+            <p>One cup of cooked brown rice has <b>45.8</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c6_oats.avif" alt="Oats-pic" width="300px" height="250px">
+            <h3>Oats</h3>
+            <br>
+            <p>A cup of uncooked oats provides <b>103</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c7_bananas.avif" alt="Bananas-pic" width="300px" height="250px">
+            <h3>Bananas</h3>
+            <br>
+            <p>One medium banana has <b>26.9</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c8_apple.avif" alt="Apples-pic" width="300px" height="250px">
+            <h3>Apples</h3>
+            <br>
+            <p>One medium apple contains <b>20.6</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c9_mango.jpg" alt="Mangos-pic" width="300px" height="250px">
+            <h3>Mangos</h3><br>
+            <p>One cup of chopped mangos has <b>24.8</b> grams of carbohydrates</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c10_dates.avif" alt="Dates-pic" width="300px" height="250px">
+            <h3>Dates</h3>
+            <br>
+            <p>There are <b>18</b> grams of carbohydrates in one pitted Medjool date.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c11_raisins.avif" alt="Raisins-pic" width="300px" height="250px">
+            <h3>Raisins</h3>
+            <br>
+            <p>One cup of raisins packs in <b>130</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/c12_beans.jpg" alt="Kidney beans-pic" width="300px" height="250px">
+            <h3>Kidney beans</h3>
+            <br>
+            <p>One cup of boiled kidney beans has <b>40</b> grams of carbohydrates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div id="Fats" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f1_fish.avif" alt="Fatty fish-pic" width="300px" height="250px">
+            <h3>Fatty fish</h3>
+            <p>One 3-oz serving of fresh mackerel contains <b>11.8</b> grams of fat.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f5_chiaseeds.avif" alt="Chia seeds-pic" width="300px" height="250px">
+            <h3>Chia Seeds</h3>
+            <p>28.35 grams serving of chia seeds contains <b>8.5</b> grams of fat.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f6_darkchoco.jpg" alt="Dark chocolate-pic" width="300px" height="250px">
+            <h3>Dark chocolate</h3>
+            <p>Eating just 100 grams of 70–85% dark chocolate provides <b>42.6</b> grams of fat.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f2_egg.avif" alt="egg-pic" width="300px" height="250px">
+            <h3>Eggs</h3>
+            <p>One 50 grams hard-boiled egg boasts <b>5.3</b>grams of fat.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f7_avocado.jpg" alt="Avocado-pic" width="300px" height="250px">
+            <h3>Avocado</h3>
+            <p>Half a medium avocado (100 grams), contains <b>14.7</b> grams of fat.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f8_flaxseeds.avif" alt="Flaxseed-pic" width="300px" height="250px">
+            <h3>Flaxseed</h3>
+            <p>Flaxseed contain <b>42.2</b> grams of fat per 100 grams.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f3_almonds.avif" alt="almonds-pic" width="300px" height="250px">
+            <h3>Almonds</h3>
+            <p>There are <g>14.3</g> grams of fat in 1 oz of almonds.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f9_olives.avif" alt="Olives-pic" width="300px" height="250px">
+            <h3>Olives</h3>
+            <p>Olives provide around <b>10.9</b> grams of fat per 100 grams.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f12_soymilk.jpg" alt="Soy milk -pic" width="300px" height="250px">
+            <h3>Soy milk</h3>
+            <p>One 8-oz. cup of soy milk has roughly <b>3.5</b> grams of healthy fat.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f4_peanuts.avif" alt="peanuts-pic" width="300px" height="250px">
+            <h3>Peanuts</h3>
+            <p>There are <b>14</b> grams of fat per 1-oz. serving of peanuts.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f10_tofu.jpg" alt="Tofu-pic" width="300px" height="250px">
+            <h3>Tofu</h3>
+            <p>There are <b>4</b> grams of fat from 100 grams of firm tofu.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f11_walnuts.avif" alt="Walnuts-pic" width="300px" height="250px">
+            <h3>Walnuts</h3>
+            <p>With <b>21</b> grams of fat in a 1-oz serving of walnuts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <div id="Vitamins" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v2_fish.avif" alt="fish-pic" width="300px" height="250px">
+            <h3>Fish</h3>
+            <p>Fish is a good source of Vitamins A, B1, B2, B3, B5, B6, B12, D, and E.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v3_greenleafy.jpg" alt="Dark Leafy Greens-pic" width="300px" height="250px">
+            <h3>Dark Leafy Greens</h3>
+            <p>Dark Leafy Greens are a good source of Vitamins A, B2, B3, B6, B9, C, E, K.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v4_broccoli.avif" alt="Broccoli-pic" width="300px" height="250px">
+            <h3>Broccoli</h3>
+            <p>Broccoli is a good source of Vitamins A, B9, C, E, K, and Beta Carotene.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v5_mushrooms.jpg" alt="Mushrooms-pic" width="300px" height="250px">
+            <h3>Mushrooms</h3>
+            <p>Mushrooms are a good source of Vitamins B2, B3, B5, and D.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v11_egg.avif" alt="Eggs-pic" width="300px" height="250px">
+            <h3>Eggs</h3>
+            <p>Eggs are a good source of Vitamins B2, B5, B12, and D.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v6_bellPeppers.avif" alt="Sweet Bell Peppers-pic" width="300px" height="250px">
+            <h3>Sweet Bell Peppers</h3>
+            <p>These are a good source of Vitamins A, and C, Beta-Carotene and Lycopene.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v12_avocado.jpg" alt="Avocados-pic" width="300px" height="250px">
+            <h3>Avocados</h3>
+            <p>Avocados are a good source of Vitamins B5, B6, B9, and E.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v7_peas.jpg" alt="Green Peas-pic" width="300px" height="250px">
+            <h3>Green Peas</h3>
+            <p>Peas are a good source of Vitamins A, B1, E, and Beta Carotene.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v8_winterSquash.jpg" alt="Winter Squash-pic" width="300px" height="250px">
+            <h3>Winter Squash</h3>
+            <p>Butternut Squash is a good source of Vitamins A, B1, E, and Beta Carotene.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v1_fruits.webp" alt="Fruits-pic" width="300px" height="250px">
+            <h3>Tropical Fruits</h3>
+            <p>Tropical Fruits a good source of Vitamins A, B1, E, and Lycopene.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v9_carrots.jpg" alt="Carrots-pic" width="300px" height="250px">
+            <h3>Carrots</h3>
+            <p>Carrots are a good source of Vitamin A, Beta Carotene, and Lycopene.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/v10_asparagus.jpg" alt="Asparagus-pic" width="300px" height="250px">
+            <h3>Asparagus</h3>
+            <p>Asparagus is a good source of Vitamins B1, B9, K, and Lycopene.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Minerals" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span><br><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m1_nutseed.avif" alt="Nuts and seeds-pic" width="300px" height="250px">
+            <h3>Nuts and seeds</h3>
+            <p>Nuts and seeds are rich in magnesium, zinc, manganese, copper, selenium, and phosphorus.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m2_shellfish.jpg" alt="Shellfish-pic" width="300px" height="250px">
+            <h3>Shellfish</h3>
+            <p>Shellfish are concentrated sources of minerals and packed with selenium, zinc, copper, and iron.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m3_gobhi.jpg" alt="Cruciferous vegetables-pic" width="300px" height="250px">
+            <h3>Cruciferous vegetables</h3>
+            <p>Cruciferous vegetables are a good source of many minerals, including magnesium, potassium, manganese, and calcium</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m4_meats.jpg" alt="Organ meats-pic" width="300px" height="250px">
+            <h3>Organ meats</h3>
+            <p>Chicken meats is amongst the most mineral-dense(like selenium, zinc, iron, and phosphorus) foods you can eat.</p>
+          </div>
+        </div>
+      </div>
+      <br> 
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f2_egg.avif" alt="Eggs-pic" width="300px" height="250px">
+            <h3>Eggs</h3>
+            <p>They’re high in iron, phosphorus, zinc, and selenium, as well as many vitamins, healthy fats, antioxidants, and proteins.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m5_beans.avif" alt="beans-pic" width="300px" height="250px">
+            <h3>Beans</h3>
+            <p>Beans are the abundant source of calcium, magnesium, iron, phosphorus, potassium, manganese, copper, and zinc.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m6_cocoa.jpg" alt="Cocoa-pic" width="300px" height="250px">
+            <h3>Cocoa</h3>
+            <p>Cocoa and cocoa products are particularly rich in magnesium and copper.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/f7_avocado.jpg" alt="Avocados-pic" width="300px" height="250px">
+            <h3>Avocados</h3>
+            <p>They’re especially rich in magnesium, potassium, manganese, and copper.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m7_berries.jpg" alt="Berries-pic" width="300px" height="250px">
+            <h3>Berries</h3>
+            <p>Berries(including strawberries, blueberries, blackberries, and raspberries) are a good source of potassium, magnesium, and manganese.</p>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m8_sardines.jpg" alt="Sardines-pic" width="300px" height="250px">
+            <h3>Sardines</h3>
+            <p>One 3.75-ounce (106-gram) can of sardines provides calcium, iron, magnesium, phosphorus, potassium, and selenium.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m9_spirulina.jpg" alt="Spirulina-pic" width="300px" height="250px">
+            <h3>Spirulina</h3>
+            <p>It’s loaded with minerals like iron, magnesium, potassium, copper, and manganese.</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="./images/foodpic/m10_starchyveggies.jpeg" alt="Starchy vegetables-pic" width="300px" height="250px">
+            <h3>Starchy vegetables</h3>
+            <p>Starchy vegetables (sweet potatoes, potatoes, butternut squash, and parsnips) provide minerals potassium, magnesium, manganese, calcium, iron, and copper.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<script src="food.js"></script> 
+
+</body>
+</html>
